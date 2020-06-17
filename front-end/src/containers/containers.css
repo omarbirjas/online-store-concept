@@ -1,0 +1,14 @@
+.item-tile-parent{
+
+}
+.header-bar-global{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    width: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-color: rgb(207, 154, 228);
+
+}
