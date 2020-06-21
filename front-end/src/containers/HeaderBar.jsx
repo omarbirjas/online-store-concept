@@ -3,6 +3,7 @@ import styled from "styled-components"
 import {HeaderButtons} from "../components/HeaderButtons.jsx"
 import { SearchBar } from "../components/SearchBar.jsx"
 import { SandwichMenu } from "../components/SandwichMenu.jsx"
+import "./containers.css"
 
 export const HeaderBar = () =>{
 
@@ -18,8 +19,8 @@ export const HeaderBar = () =>{
             <SearchBar></SearchBar>
 
             <PrimaryButtonBox>
-            <HeaderButtons title = "Colorful" clicked = {() => {console.log("clicekd")}}/>
-            <HeaderButtons title = "Colorful"/>
+            <HeaderButtons title = "Button" clicked = {() => {console.log("clicekd")}}/>
+            <HeaderButtons title = "Click Me!"/>
             </PrimaryButtonBox>
 
         </div>)

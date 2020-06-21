@@ -1,5 +1,5 @@
 import React from "react"
-import "./containers.css"
+import "./components.css"
 
 export const ItemTile = ({images, title, description, price, shipping}) =>{
 

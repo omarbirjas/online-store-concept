@@ -1,22 +1,21 @@
 .header-buttons-primary{
-    outline: #a827a2;
+    outline:none;
     background-color: rgba(255, 255, 255, 0);
     color: rgb(255, 255, 255);
     width: 100px;
     height: auto;
     justify-content: center;
     align-content: center;
-    border: 0px solid #a827a2;
+    border: none;
     transition: ease-in-out .2s;
 
 }
 
 .header-buttons-primary:hover{
-    border: 2px solid #a827a2;
+    background-color: #e463dd;
 }
 
 .header-buttons-primary:focus{
-    border: 2px solid #4c1b74;
     background-color: #a827a2;
     outline: none;
 }
@@ -25,10 +24,12 @@
     outline: #a827a2;
     border-style: none;
     height: 100%;
+    width: 100%;
     background-color: rgb(255, 255, 255, 0);
 }
 .search-bar-parent{
     display: flex;
+    width: 50%;
     outline: #a827a2;
     border: 2px solid #a827a2;
     border-style: solid none solid solid;
